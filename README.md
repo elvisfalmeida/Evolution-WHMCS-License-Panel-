@@ -52,7 +52,7 @@ O **Painel de Licenciamento** centraliza o gerenciamento das licenças do **Evol
 - Servidor Web com **PHP 7.2** ou superior
 - Banco de dados **MySQL**
 - Extensões PHP: **cURL**, **JSON**
-- Acesso à **API de Licenciamento** (exemplo: `https://license.ux.net.br/api/license_api.php`)
+- Acesso à **API de Licenciamento** (exemplo: `https://license.meudominio.com.br/api/license_api.php`)
 
 ---
 
