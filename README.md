@@ -61,10 +61,7 @@ O **Painel de Licenciamento** centraliza o gerenciamento das licenças do **Evol
 1. **Upload dos Arquivos**
    - Envie os arquivos do painel para o diretório desejado no servidor.
 
-2. **Criação do Banco de Dados**
-   - Crie um banco de dados no MySQL para armazenar as licenças e logs.
-
-3. **Importação da Estrutura do Banco**
+2. **Importação da Estrutura do Banco**
    - No **phpMyAdmin** ou via **linha de comando**, importe o arquivo `database.sql` fornecido.
    - Se estiver usando o terminal, execute:
      
@@ -72,7 +69,7 @@ O **Painel de Licenciamento** centraliza o gerenciamento das licenças do **Evol
      mysql -u SEU_USUARIO -p SEU_BANCO_DE_DADOS < database.sql
      ```
 
-4. **Acesso Inicial**
+3. **Acesso Inicial**
    - O sistema vem com um usuário padrão para login:
      
      - **Usuário:** `admin`
@@ -80,7 +77,7 @@ O **Painel de Licenciamento** centraliza o gerenciamento das licenças do **Evol
 
    **⚠️ Importante:** Altere a senha assim que fizer login para garantir a segurança do sistema.
 
-5. **Configuração do Banco no Sistema**
+4. **Configuração do Banco no Sistema**
    - Edite o arquivo `includes/db.php` e atualize as credenciais do banco de dados:
      
      ```php
@@ -90,7 +87,7 @@ O **Painel de Licenciamento** centraliza o gerenciamento das licenças do **Evol
      define('DB_PASS', 'SUA_SENHA');
      ```
 
-6. **Finalização**
+5. **Finalização**
    - Acesse o painel no navegador e faça login com as credenciais padrão.
    - Configure as opções no painel de administração conforme suas necessidades.
 
